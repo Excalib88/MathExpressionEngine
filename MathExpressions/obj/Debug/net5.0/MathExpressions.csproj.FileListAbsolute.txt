@@ -1,0 +1,16 @@
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.exe
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.deps.json
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.runtimeconfig.json
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.runtimeconfig.dev.json
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.dll
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\ref\MathExpressions.dll
+C:\Projects\MathExpressions\MathExpressions\bin\Debug\net5.0\MathExpressions.pdb
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.csproj.AssemblyReference.cache
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.AssemblyInfoInputs.cache
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.AssemblyInfo.cs
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.csproj.CoreCompileInputs.cache
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.dll
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\ref\MathExpressions.dll
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.pdb
+C:\Projects\MathExpressions\MathExpressions\obj\Debug\net5.0\MathExpressions.genruntimeconfig.cache

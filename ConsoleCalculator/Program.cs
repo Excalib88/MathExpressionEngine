@@ -96,7 +96,7 @@ namespace ConsoleCalculator
                 }
                 else if (IsOperator(input[i])) //Если символ - оператор
                 {
-                    //Берем два последних значения из стека
+                    //Берем два первых значения из стека
                     double a = temp.Pop();
                     double b = temp.Pop();
 
@@ -113,21 +113,21 @@ namespace ConsoleCalculator
             }
             return temp.Peek(); //Забираем результат всех вычислений из стека и возвращаем его
         }
-        static private bool IsDelimeter(char c)
+        static private bool IsDelimeter(char c) //Разделитель
         {
             if ((" =".IndexOf(c) != -1))
                 return true;
             return false;
         }
 
-        static private bool IsOperator(char с)
+        static private bool IsOperator(char с) 
         {
             if (("+-/*^()".IndexOf(с) != -1))
                 return true;
             return false;
         }
 
-        static private byte GetPriority(char s)
+        static private byte GetPriority(char s) //Приоритет
         {
             switch (s)
             {

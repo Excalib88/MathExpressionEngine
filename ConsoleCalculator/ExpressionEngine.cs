@@ -11,7 +11,6 @@ namespace ConsoleCalculator
         public ExpressionEngine()
         {
             _tokenizer = new Tokenizer();
-            
         }
 
         public double Calculate(string input)

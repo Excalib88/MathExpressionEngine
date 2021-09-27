@@ -11,10 +11,7 @@ C:\Users\Arthur\source\repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\netco
 C:\Users\Arthur\source\repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.dll
 C:\Users\Arthur\source\repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.pdb
 C:\Users\Arthur\source\repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.genruntimeconfig.cache
-C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.exe
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.deps.json
-C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.runtimeconfig.json
-C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.runtimeconfig.dev.json
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.dll
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.pdb
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.csproj.AssemblyReference.cache
@@ -23,4 +20,3 @@ C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculat
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.csproj.CoreCompileInputs.cache
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.dll
 C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.pdb
-C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\obj\Debug\netcoreapp3.1\ConsoleCalculator.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
+using ConsoleCalculator;
 
-namespace ConsoleCalculator
+namespace TestCalculator
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
             while (true)
             {
                 Console.Write("Введите выражение: ");
-                Console.WriteLine(new ExpressionEngine().Calculate(Console.ReadLine()));
-            }
+                Console.WriteLine(ExpressionEngine.Calculate(Console.ReadLine()));
+            }       
         }
     }
 }

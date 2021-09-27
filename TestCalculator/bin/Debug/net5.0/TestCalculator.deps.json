@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestCalculator/1.0.0": {
+        "dependencies": {
+          "ConsoleCalculator": "1.0.0"
+        },
+        "runtime": {
+          "TestCalculator.dll": {}
+        }
+      },
+      "ConsoleCalculator/1.0.0": {
+        "runtime": {
+          "ConsoleCalculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

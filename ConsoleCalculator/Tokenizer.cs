@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ConsoleCalculator.Exceptions;
 
 namespace ConsoleCalculator
 {
@@ -14,11 +15,14 @@ namespace ConsoleCalculator
             
             for (var i = 0; i < input.Length; i++)
             {
+                if (input[i].IsInvalidSymbol())
+                    throw new UnrecognizedSymbolException($"Symbol \"{input[i]}\" is not correct. Expected math operations. Please, try to enter math expression again");
+                
                 if (char.IsDigit(input[i]))
                 {
                     var currentNumber = "";
 
-                    while (!input[i].IsOperator())
+                    while (!input[i].IsOperator() && !input[i].IsInvalidSymbol())
                     {
                         currentNumber += input[i];
                         i++;
@@ -39,23 +43,21 @@ namespace ConsoleCalculator
 
                 if (!input[i].IsOperator()) continue;
 
-                if (prevToken != '(' && prevToken != ')' && !char.IsDigit(prevToken) && !(input[i] == '(' || input[i] == ')'))
+                if (!char.IsDigit(prevToken) && !(input[i] == '(' || input[i] == ')') && !isNegative)
                 {
                     if ((prevToken == '*' || prevToken == '/') && input[i] == '-')
                     {
                         isNegative = true;
                         continue;
                     }
-                    else
+
+                    switch (input[i])
                     {
-                        switch (input[i])
-                        {
-                            case '-':
-                                isNegative = true;
-                                continue;
-                            case '+':
-                                continue;
-                        }
+                        case '-':
+                            isNegative = true;
+                            continue;
+                        case '+':
+                            continue;
                     }
                 }
                 
@@ -69,9 +71,9 @@ namespace ConsoleCalculator
                     {
                         var symbol = operationStack.Pop();
 
-                        if (symbol == '(')
+                        if (prevToken == '(')
                             throw new SystemException();
-                        
+
                         while (symbol != '(')
                         {
                             result.Add(symbol.ToString());

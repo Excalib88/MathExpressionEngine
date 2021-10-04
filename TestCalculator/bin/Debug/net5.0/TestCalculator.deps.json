@@ -8,15 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "TestCalculator/1.0.0": {
         "dependencies": {
-          "ConsoleCalculator": "1.0.0"
+          "ConsoleCalculator": "1.0.0",
+          "ConsoleCalculator.Reference": "1.0.0.0"
         },
         "runtime": {
           "TestCalculator.dll": {}
         }
       },
-      "ConsoleCalculator/1.0.0": {
+      "ConsoleCalculator.Reference/1.0.0.0": {
         "runtime": {
-          "ConsoleCalculator.dll": {}
+          "ConsoleCalculator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -27,8 +31,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ConsoleCalculator/1.0.0": {
-      "type": "project",
+    "ConsoleCalculator.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

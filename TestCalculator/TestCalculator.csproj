@@ -9,5 +9,8 @@
     <ItemGroup>
       <ProjectReference Include="..\ConsoleCalculator\ConsoleCalculator.csproj" />
     </ItemGroup>
+    <ItemGroup>
+        <Reference Include="C:\Users\rave9\OneDrive\Рабочий стол\Projects\Console\ConsoleCalculator\bin\Debug\netcoreapp3.1\ConsoleCalculator.dll"/>
+    </ItemGroup>
 
 </Project>

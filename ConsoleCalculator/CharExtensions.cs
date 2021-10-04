@@ -17,5 +17,12 @@
                 _ => 5
             };
         }
+
+        public static bool IsInvalidSymbol(this char symbol)
+        {
+            return char.IsLetter(symbol) ||
+                   char.IsSymbol(symbol) && !symbol.IsOperator() ||
+                   char.IsPunctuation(symbol) && ".,".IndexOf(symbol) == -1 && !symbol.IsOperator();
+        }
     }
 }

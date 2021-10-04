@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace ConsoleCalculator
@@ -8,6 +9,9 @@ namespace ConsoleCalculator
     {
         public static double Calculate(string input)
         {
+            if (string.IsNullOrWhiteSpace(input))
+                throw new NullReferenceException("Input data was null");
+            
             try
             {
                 var tokens = Tokenizer.Tokenize(input).ToArray();
@@ -16,7 +20,7 @@ namespace ConsoleCalculator
 
                 foreach (var t in tokens)
                 {
-                    if (double.TryParse(t, out var tempNumber))
+                    if (DoubleExtensions.TryParse(t, out var tempNumber))
                     {
                         temp.Push(tempNumber);
                     }
@@ -33,15 +37,19 @@ namespace ConsoleCalculator
                             '/' => b / a,
                             _ => result
                         };
+
+                        if (double.IsInfinity(result) || double.IsNaN(result))
+                            throw new DivideByZeroException("Divide by zero isn't impossible");
+                        
                         temp.Push(result);
                     }
                 }
 
                 return temp.Peek();
             }
-            catch (Exception)
+            catch (InvalidOperationException)
             {
-                throw new SystemException();
+                throw new SystemException("Invalid input data. Retry to enter...");
             }
         }
     }
